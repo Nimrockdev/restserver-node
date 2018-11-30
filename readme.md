@@ -5,10 +5,15 @@ npm init
 npm install express --save  
 npm i body-parser --save
 
-npm install mongoose --save
-npm i mongoose-unique-validator --save
-npm install bcrypt --save
-npm install underscore --save
+npm install mongoose --save  
+npm i mongoose-unique-validator --save  
+npm install bcrypt --save  
+npm install underscore --save  
 
-heroku create
-https://frozen-wave-45604.herokuapp.com/
+#Heroku  
+[https://frozen-wave-45604.herokuapp.com/](https://frozen-wave-45604.herokuapp.com/)
+
+heroku config:set MONGO_URI="XXXXXXX"  
+heroku config:get nombre  
+heroku config:unset nombre  
+heroku config:set nombre="XXXXX"
