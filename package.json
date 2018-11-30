@@ -3,6 +3,9 @@
     "version": "1.0.0",
     "description": "npm init   npm install express --save   npm i body-parser --save",
     "main": "index.js",
+    "engine": {
+        "node": "8.14.0"
+    },
     "scripts": {
         "start": "node server/server.js",
         "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,10 +13,13 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
+        "bcrypt": "^3.0.2",
         "body-parser": "^1.18.3",
         "express": "^4.16.4",
         "mongoose": "^5.3.13",
-        "moongoose": "0.0.5"
+        "mongoose-unique-validator": "^2.0.2",
+        "moongoose": "0.0.5",
+        "underscore": "^1.9.1"
     },
     "devDependencies": {}
 }
