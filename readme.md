@@ -9,6 +9,7 @@ npm install mongoose --save
 npm i mongoose-unique-validator --save  
 npm install bcrypt --save  
 npm install underscore --save  
+npm install jsonwebtoken --save
 
 #Heroku  
 [https://frozen-wave-45604.herokuapp.com/](https://frozen-wave-45604.herokuapp.com/)

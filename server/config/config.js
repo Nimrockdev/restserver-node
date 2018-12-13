@@ -13,6 +13,22 @@ process.env.NODE_ENV = process.env.NODE_ENV || 'dev';
 
 
 // ============================
+//  Vencimiento del token
+// ============================
+/* 60s 60m 24m 24h, 30 DÍAS*/
+
+process.env.CADUCIDAD_TOKEN = 60 * 60 * 24 * 30;
+
+
+
+// ============================
+//  Seed de autentificación
+// ============================
+/* En heroku utilizamos process.env.SEED */
+process.env.SEED = process.env.SEED || 'seed-de-desarrollo';
+
+
+// ============================
 //  Base de datos
 // ============================
 
