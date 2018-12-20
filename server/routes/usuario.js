@@ -5,9 +5,9 @@ const app = express();
 const bcrypt = require('bcrypt');
 const _ = require('underscore');
 
-app.get('/', function(req, res) {
+/* app.get('/', function(req, res) {
     res.json('Hello World');
-});
+}); */
 
 app.get('/usuario', verificaToken, (req, res) => {
 
