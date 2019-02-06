@@ -12,6 +12,8 @@ npm install underscore --save
 npm install jsonwebtoken --save
 npm install google-auth-library --save
 
+npm install --save express-fileupload
+
 #Heroku  
 [https://frozen-wave-45604.herokuapp.com/](https://frozen-wave-45604.herokuapp.com/)
 
