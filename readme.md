@@ -21,3 +21,6 @@ heroku config:set MONGO_URI="XXXXXXX"
 heroku config:get nombre  
 heroku config:unset nombre  
 heroku config:set nombre="XXXXX"
+
+npm desde VSC, actualiza los paquetes que usamos
+npm update
